@@ -2,19 +2,18 @@
 using Microsoft.Extensions.DependencyInjection;
 using System;
 
-namespace ConsoleApp.Addin.One
+namespace ConsoleApp.Addin.Two
 {
-    public class ConsoleAppAddin : IConsoleAppAddin
+    public class Class1 : IConsoleAppAddin
     {
         public void AddServices(IServiceCollection services)
         {
             services.AddSingleton<MyClass>();
-            services.AddSingleton<AnotherClass>();
         }
 
         public void Start(IServiceProvider provider)
         {
-            var anotherClass = provider.GetRequiredService<AnotherClass>();
+            var myClass = provider.GetRequiredService<MyClass>();
         }
     }
 }

@@ -12,6 +12,8 @@ namespace ConsoleApp
             CreateHost()
                 .Build()
                 .Start();
+
+            Console.Read();
         }
 
         static IHostBuilder CreateHost() =>
