@@ -3,13 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{E02BDB40-3B8B-469F-8677-5D0FDC6E6959}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{E02BDB40-3B8B-469F-8677-5D0FDC6E6959}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Core", "ConsoleApp.Core\ConsoleApp.Core.csproj", "{5C898259-A8F5-4AC5-9C75-614A54D3898D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp.Core", "ConsoleApp.Core\ConsoleApp.Core.csproj", "{5C898259-A8F5-4AC5-9C75-614A54D3898D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Addin.One", "ConsoleApp.Addin.One\ConsoleApp.Addin.One.csproj", "{DB5EA4A5-5BBB-48EC-820E-21791CAA10C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp.Addin.One", "ConsoleApp.Addin.One\ConsoleApp.Addin.One.csproj", "{DB5EA4A5-5BBB-48EC-820E-21791CAA10C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Addin.Two", "ConsoleApp.Addin.Two\ConsoleApp.Addin.Two.csproj", "{496C4E33-114A-454E-A458-8E9D86BF8BB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp.Addin.Two", "ConsoleApp.Addin.Two\ConsoleApp.Addin.Two.csproj", "{496C4E33-114A-454E-A458-8E9D86BF8BB2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyRazorLibrary", "MyRazorLibrary\MyRazorLibrary.csproj", "{9025AB56-0676-45D9-8E92-AE230E48E30C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyClassLib472", "MyClassLib472\MyClassLib472.csproj", "{0FCBBA37-1A75-4C85-AF4D-07A1F508152F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyClassLibNetstandard", "MyClassLibNetstandard\MyClassLibNetstandard.csproj", "{0264EA51-87A6-48CE-80D3-5BA6CBEE5F23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{496C4E33-114A-454E-A458-8E9D86BF8BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{496C4E33-114A-454E-A458-8E9D86BF8BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{496C4E33-114A-454E-A458-8E9D86BF8BB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9025AB56-0676-45D9-8E92-AE230E48E30C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9025AB56-0676-45D9-8E92-AE230E48E30C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9025AB56-0676-45D9-8E92-AE230E48E30C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9025AB56-0676-45D9-8E92-AE230E48E30C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FCBBA37-1A75-4C85-AF4D-07A1F508152F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FCBBA37-1A75-4C85-AF4D-07A1F508152F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FCBBA37-1A75-4C85-AF4D-07A1F508152F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FCBBA37-1A75-4C85-AF4D-07A1F508152F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0264EA51-87A6-48CE-80D3-5BA6CBEE5F23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0264EA51-87A6-48CE-80D3-5BA6CBEE5F23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0264EA51-87A6-48CE-80D3-5BA6CBEE5F23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0264EA51-87A6-48CE-80D3-5BA6CBEE5F23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
